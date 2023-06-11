@@ -51,6 +51,7 @@ public class T3_drag_drop_pom {
 
         String actual = loopPracticeDragDropPage.bigCircle.getText();
         Assert.assertEquals(actual, expected, "Actual does not match the expected");
+
     }
 
 
